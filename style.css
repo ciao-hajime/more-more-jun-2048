@@ -148,13 +148,13 @@ span.label {
 
 .tile-2 { background: #e5f4ff;}
 .tile-4 { background: #98e7e4;}
-.tile-8 { background: #9af794; }
+.tile-8 { background: #d5b3ff; }
 .tile-16 { background: #e5dc98; }
 .tile-32 { background: #ff5fa7; }
 .tile-64 { background: #5ec2ff;  }
-.tile-128 { background: #e578ff;  }
+.tile-128 { background: #ff8eeb;  }
 .tile-256 { background: #98ff14;  }
-.tile-512 { background: #15f3f5;  }
+.tile-512 { background: #ff9231;  }
 .tile-1024 { background: linear-gradient(135deg, #fff8d8, #87ffd3); }
 .tile-2048 { background: linear-gradient(135deg, #29fffa, #26c3ff);}
 .tile-4096 { background: linear-gradient(135deg, #172e43, #30ffff)}
