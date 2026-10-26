@@ -271,7 +271,7 @@ span.label {
 
     /* --------- リンク ----------  */
 
-    .link {
+        .link {
         margin: 0 0 64px;
         padding: 24px 0 0;
         border-top: 1px solid #CCC;
@@ -283,13 +283,11 @@ span.label {
         align-items: center;
         width: 100%;
         height: 52px;
-        background: #afe39b;
         border-radius: 4px;
     }
 
     .link-item a {
         text-decoration: none;
-        color: #5b7f75;
         font-family: none;
         font-weight: bold;
         width: 100%;
@@ -300,9 +298,50 @@ span.label {
     }
 
     .link-item a:hover{
+        transition: 0.5s;
+    }
+
+    .link-item-hiyori{
+        background: #afe39b;
+        margin: 0 0 16px;
+    }
+
+    .link-item-hiyori a{
+        color: #5b7f75;
+    }
+
+    .link-item-hiyori a:hover{
         background: #a0cf8e;
         transition: 0.5s;
     }
+
+    .link-item-nagisa{
+        background: #df7c57;
+        margin: 0 0 16px;
+    }
+
+    .link-item-nagisa a{
+        color: #eee9e8;
+    }
+
+    .link-item-nagisa a:hover{
+        background: #d1704d;
+        transition: 0.5s;
+    }
+    /*
+    .link-item-ibara{
+        background: #9bc8e3;
+        margin: 0 0 16px;
+    }
+
+    .link-item-ibara a{
+        color: #5b6b7f;
+    }
+
+    .link-item-ibara a:hover{
+        background: #8ab2ca;
+        transition: 0.5s;
+    }*/
 
 /*---------- クレジット ---------- */
 .credit {
