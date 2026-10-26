@@ -5,7 +5,7 @@
 
 // ---------- 設定 ----------
 const SIZE = 4;
-const GAME_ID = "jun";
+const GAME_ID = "nagisa";
 
 const GAME_SAVE_KEY = `${GAME_ID}2048Game`;
 const BEST_SCORE_KEY = `${GAME_ID}2048BestScore`;
@@ -474,7 +474,7 @@ function moveLeft() {
 
                         showOverlay(
                             "🎉8192達成！🎉",
-                            "ここまで遊んでくれてありがとうございます！\nまた俺と一緒にハイスコア目指して続けて遊びましょう！負けませんよ"
+                            "……すごいね。ここまで遊んでくれてありがとう\n……また私と一緒にハイスコアを目指そう…！……負けないよ"
                         );
                         overlayButton.textContent = "ゲームを続ける";
                         overlayButton.onclick = () => {
@@ -686,8 +686,8 @@ function move(direction) {
         setTimeout(() => {
 
             showOverlay(
-                "🌊 Game Over",
-                "最後まで遊んでくれて\nありがとうございます\nまた遊んで下さいねぇ～♪"
+                "🍫 Game Over",
+                "……最後まで遊んでくれて\nありがとう♪\nまた遊んでくれると嬉しいな♪"
             );
 
         }, 150);
