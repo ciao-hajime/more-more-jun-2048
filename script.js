@@ -5,7 +5,7 @@
 
 // ---------- 設定 ----------
 const SIZE = 4;
-const GAME_ID = "nagisa";
+const GAME_ID = "jun";
 
 const GAME_SAVE_KEY = `${GAME_ID}2048Game`;
 const BEST_SCORE_KEY = `${GAME_ID}2048BestScore`;
